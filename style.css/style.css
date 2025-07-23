@@ -247,7 +247,7 @@
 /* section 1 end  */
 
 .section-2{
-    width: 100%;
+    width: calc(100% - 20px);
     margin: 70px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
