@@ -714,7 +714,7 @@ gap: 20px;
     text-align: center;
     width:calc(100% - 30px);
     height: 100%;
-    margin: 70px auto;
+    margin: 0px auto;
     padding: 10px ;
    padding: 100px 15px;
 }
@@ -757,7 +757,7 @@ gap: 20px;
 
 
 footer{
-    width: 100%;
+    width: calc(100% - 50px);
     margin: 0px auto;
     padding: 10px;
 }
@@ -766,10 +766,15 @@ footer{
     display: flex;
     gap: 30px;
     flex-direction: column;
+    width: calc(100% - 20px);
+    margin: 0 auto;
 }
 
 .footer-1{
     width: calc(100% - 50px);
+}
+.footer-1 img{
+    width: 100%;
 }
 .footer-1 p{
     padding-top:10px ;
@@ -798,6 +803,7 @@ footer{
     gap: 25px;
     padding: 0;
     align-items: center;
+    width: 100%;
 }
 
 .footer-4 ul li{
