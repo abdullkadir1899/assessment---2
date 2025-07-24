@@ -136,7 +136,13 @@
     border-radius: 5px;
     background-color: #E95A08;
     border-style: none;
+    cursor: pointer;
+    color: white;
 }
+.section-2-div div button:hover{
+    background-color: black;
+}
+
 
 /* end section 2 */
 
@@ -343,6 +349,11 @@ gap: 20px;
     cursor: pointer;
 }
 
+
+.section-6-div-1 button:hover{
+    background-color: black;
+}
+
 /* end section -6 */
 
 
@@ -377,6 +388,14 @@ footer{
     cursor: pointer;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
+}
+.footer-3 ul li:hover{
+    text-decoration: underline;
+}
+
+.footer-2 ul li:hover{
+    text-decoration: underline;
 }
 
 
@@ -385,7 +404,8 @@ footer{
     gap: 25px;
     padding: 0;
     align-items: center;
-}
+    cursor: pointer;
+}  
 
 .footer-4 ul li{
     list-style: none;
