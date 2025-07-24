@@ -742,7 +742,7 @@ gap: 20px;
 .section-6-div-1 button{
     width: calc(100% - 40px);
     height: 100%;
-    padding: 5px 40px;
+    padding: 5px 10px;
     font-size: 17.5px;
     color: white;
     background-color: #E95A08;
@@ -780,6 +780,7 @@ footer{
     padding-top:10px ;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.459);
+    width: 100%;
 }
 
 .footer-2 ul, .footer-3 ul{
@@ -795,6 +796,7 @@ footer{
     cursor: pointer;
     font-size: 20px;
     font-weight: 700;
+    width: 100%;
 }
 
 
@@ -803,6 +805,9 @@ footer{
     gap: 25px;
     padding: 0;
     align-items: center;
+    width: 100%;
+}
+.footer-4 ul li img{
     width: 100%;
 }
 
