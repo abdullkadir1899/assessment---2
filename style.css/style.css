@@ -343,6 +343,56 @@ gap: 20px;
     cursor: pointer;
 }
 
+/* end section -6 */
+
+
+footer{
+    width: 1270px;
+    margin: 100px auto;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-1{
+    width: 359px;
+}
+.footer-1 p{
+    padding-top:10px ;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.459);
+}
+
+.footer-2 ul, .footer-3 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px;
+}
+
+.footer-2 ul li, .footer-3 ul li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.footer-4 ul{
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    align-items: center;
+}
+
+.footer-4 ul li{
+    list-style: none;
+}
+
+
+
 
 
 
@@ -700,10 +750,59 @@ gap: 20px;
     cursor: pointer;
 }
 
+/* end section -6 */
 
 
 
 
+
+footer{
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.footer-container{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.footer-1{
+    width: calc(100% - 50px);
+}
+.footer-1 p{
+    padding-top:10px ;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.459);
+}
+
+.footer-2 ul, .footer-3 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px;
+    width: 100px;
+}
+
+.footer-2 ul li, .footer-3 ul li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.footer-4 ul{
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    align-items: center;
+}
+
+.footer-4 ul li{
+    list-style: none;
+}
 
 
 
